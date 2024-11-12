@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Labaratorinis 4</string>
+    <string name="create_note">Sukurti užrašą</string>
+    <string name="delete_note">Ištrinti užrašą</string>
+    <string name="delete_note_button">Delete Note</string>
+    <string name="enter_note_name">Enter note name</string>
+    <string name="enter_note_content">Enter note content</string>
+    <string name="save_note">Save Note</string>
+    <string name="both_fields_required">Both fields are required</string>
+</resources>
