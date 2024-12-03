@@ -1,5 +1,6 @@
 package com.example.laboratorinis_4;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -39,6 +40,9 @@ public class DeleteNoteActivity extends AppCompatActivity {
                     notes.remove(selectedNote);
                     Log.d(TAG, "onClick: Note deleted - " + selectedNote);
                     Toast.makeText(DeleteNoteActivity.this, "Note deleted", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent();
+                    intent.putStringArrayListExtra("notes", notes);
+                    setResult(RESULT_OK, intent);
                     finish();
                 }
             }
